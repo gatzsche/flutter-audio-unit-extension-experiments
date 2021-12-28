@@ -8,6 +8,7 @@
 #import "AudioUnitViewController.h"
 #import "FlutterExampleAUV3AudioUnit.h"
 @import Flutter;
+#import "GeneratedPluginRegistrant.h"
 
 static FlutterEngine *flutterEngine = NULL;
 
@@ -25,6 +26,7 @@ static FlutterEngine *flutterEngine = NULL;
   if(flutterEngine == NULL){
     flutterEngine = [[FlutterEngine alloc] initWithName:@"Flutter AUV3 Engine"];
     [flutterEngine run];
+    [GeneratedPluginRegistrant registerWithRegistry:flutterEngine];
   }
 
   return self;
