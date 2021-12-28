@@ -6,6 +6,8 @@ We are the developers of Audanika, a professional MIDI Controller app written in
 Flutter. Many of our users require us to support Audio Unit Extensions (AUV3)
 with Audanika.
 
+https://www.youtube.com/watch?v=dV8p6LVJ3ms
+
 ## Goal
 
 We want to be the first Flutter based app, supporting Audio Unit Extensions.
