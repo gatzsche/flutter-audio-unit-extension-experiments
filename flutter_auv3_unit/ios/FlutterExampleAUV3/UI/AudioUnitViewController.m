@@ -21,15 +21,15 @@ static FlutterEngine *flutterEngine = NULL;
 }
 
 - (instancetype)initWithCoder:(NSCoder *)coder{
-  self = [super initWithCoder:coder];
+    self = [super initWithCoder:coder];
 
-  if(flutterEngine == NULL){
-    flutterEngine = [[FlutterEngine alloc] initWithName:@"Flutter AUV3 Engine"];
-    [flutterEngine run];
-    [GeneratedPluginRegistrant registerWithRegistry:flutterEngine];
-  }
+    if(flutterEngine == NULL){
+        flutterEngine = [[FlutterEngine alloc] initWithName:@"Flutter AUV3 Engine"];
+        [flutterEngine run];
+        [GeneratedPluginRegistrant registerWithRegistry:flutterEngine];
+    }
 
-  return self;
+    return self;
 }
 
 - (void) viewDidLoad {

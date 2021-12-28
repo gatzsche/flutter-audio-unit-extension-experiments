@@ -70,7 +70,7 @@
 		026D55C4277AE363003CCA64 /* FlutterExampleAUV3DSPKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FlutterExampleAUV3DSPKernel.hpp; sourceTree = "<group>"; };
 		026D55C6277AE363003CCA64 /* FlutterExampleAUV3DSPKernel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FlutterExampleAUV3DSPKernel.mm; sourceTree = "<group>"; };
 		026D55C9277AE363003CCA64 /* AudioUnitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioUnitViewController.h; sourceTree = "<group>"; };
-		026D55CA277AE363003CCA64 /* AudioUnitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioUnitViewController.m; sourceTree = "<group>"; };
+		026D55CA277AE363003CCA64 /* AudioUnitViewController.m */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = AudioUnitViewController.m; sourceTree = "<group>"; tabWidth = 4; };
 		026D55CD277AE363003CCA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		026D55CF277AE363003CCA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
