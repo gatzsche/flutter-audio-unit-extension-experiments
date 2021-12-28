@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=dV8p6LVJ3ms
 
 ## Goal
 
-We want to be the first Flutter based app, supporting Audio Unit Extensions.
+We want to be the first [Flutter based app, supporting Audio Unit Extensions](https://audanika.medium.com/help-us-to-implement-auv3-support-for-audanika-ea325870fa6a?source=friends_link&sk=9125551802c094e540e5aca073f535fe).
 
 ## Problems
 
