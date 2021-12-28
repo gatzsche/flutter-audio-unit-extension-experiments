@@ -1,17 +1,37 @@
-# Flutter AUv3 Audio Unit Experiments
+# Flutter AUv3 Audio Unit Error Demo
 
-Flutter has a huge potential also for audio- and music app development. This
-project shows an Flutter based instrument audio unit.
+## Motivation
 
-## Overview
+We are the developers of Audanika, a professional MIDI Controller app written in
+Flutter. Many of our users require us to support Audio Unit Extensions (AUV3)
+with Audanika.
 
-The following steps are needed to run the Audio Unit:
+## Goal
 
-1. Build and run the plugin container app
-2. Start the plugin host app
-3. Debug the audio unit using the plugin host app
+We want to be the first Flutter based app, supporting Audio Unit Extensions.
 
-## 1. Build and run the plugin container app
+## Problems
+
+Until now we were not able to show a Flutter view controller within an Audio
+Unit Extensions
+
+## Solution
+
+We need support from the Flutter team, to help us to make FlutterViewController
+work as part of an Audio Unit Extension. Here are the steps to reproduce the
+issue:
+
+### 1. Check out and prepare the repository
+
+~~~bash
+git clone git@github.com:gatzsche/flutter-audio-unit-extension-experiments.git
+cd flutter-audio-unit-extension-experiments/
+cd flutter_auv3_unit/
+flutter pub get
+~~~
+
+
+## 2. Build and run the plugin container app
 
 - Open `flutter_auv3_unit/ios/Runner.xcworkspace/` with Xcode.
 - Select target `Runner`
@@ -22,7 +42,7 @@ The following steps are needed to run the Audio Unit:
 
   ![INL010486.png](doc/images/INL010486.png)
 
-## 2. Build and run the plugin host app
+## 3. Build and run the plugin host app
 
 - Open `AUV3Host/AUv3Host/AUv3Host.xcodeproj/` with Xcode
 - Select `iOSAUv3Host` as target
@@ -33,7 +53,7 @@ The following steps are needed to run the Audio Unit:
 
   ![INL010488.png](doc/images/INL010488.png)
 
-## 3. Debug the audio unit using the plugin host app
+## 4. Debug the audio unit using the plugin host app
 
 - Switch back to `flutter_auv3_unit/ios/Runner.xcworkspace/` Xcode project
 - Select audio unit target `FlutterAUV3` 
@@ -61,7 +81,14 @@ The following steps are needed to run the Audio Unit:
 
   ![INL010494.png](doc/images/INL010494.png)
 
-## 4. Here is the bug
+## 5. Here is the bug
 
 - Normally the Flutter default app should be shown
-- But it is not.
+- But you see only the red background of the FlutterViewController
+
+## 6. Hints
+
+- The commandline output shows that flutter is executed and also the widget tree is built. Probably the rendering does not work properly.
+
+
+  ![INL010497.png](doc/images/INL010497.png)
