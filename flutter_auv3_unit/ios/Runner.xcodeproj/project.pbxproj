@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		026D55BA277AE363003CCA64 /* FlutterExampleAUV3AudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 026D55B9277AE363003CCA64 /* FlutterExampleAUV3AudioUnit.m */; };
+		026D55BE277AE363003CCA64 /* DSPKernel.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 026D55BD277AE363003CCA64 /* DSPKernel.hpp */; };
+		026D55C0277AE363003CCA64 /* DSPKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 026D55BF277AE363003CCA64 /* DSPKernel.mm */; };
+		026D55C2277AE363003CCA64 /* BufferedAudioBus.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 026D55C1277AE363003CCA64 /* BufferedAudioBus.hpp */; };
+		026D55C5277AE363003CCA64 /* FlutterExampleAUV3DSPKernel.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 026D55C4277AE363003CCA64 /* FlutterExampleAUV3DSPKernel.hpp */; };
+		026D55C7277AE363003CCA64 /* FlutterExampleAUV3DSPKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 026D55C6277AE363003CCA64 /* FlutterExampleAUV3DSPKernel.mm */; };
+		026D55CB277AE363003CCA64 /* AudioUnitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 026D55CA277AE363003CCA64 /* AudioUnitViewController.m */; };
+		026D55CE277AE363003CCA64 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 026D55CC277AE363003CCA64 /* MainInterface.storyboard */; };
+		026D55D2277AE363003CCA64 /* FlutterExampleAUV3.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 026D55B5277AE363003CCA64 /* FlutterExampleAUV3.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
@@ -15,7 +24,28 @@
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		026D55D0277AE363003CCA64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 026D55B4277AE363003CCA64;
+			remoteInfo = FlutterExampleAUV3;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
+		026D55D3277AE363003CCA64 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				026D55D2277AE363003CCA64 /* FlutterExampleAUV3.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9705A1C41CF9048500538489 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,6 +59,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		026D55B5277AE363003CCA64 /* FlutterExampleAUV3.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FlutterExampleAUV3.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		026D55B8277AE363003CCA64 /* FlutterExampleAUV3AudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlutterExampleAUV3AudioUnit.h; sourceTree = "<group>"; };
+		026D55B9277AE363003CCA64 /* FlutterExampleAUV3AudioUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlutterExampleAUV3AudioUnit.m; sourceTree = "<group>"; };
+		026D55BD277AE363003CCA64 /* DSPKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DSPKernel.hpp; sourceTree = "<group>"; };
+		026D55BF277AE363003CCA64 /* DSPKernel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DSPKernel.mm; sourceTree = "<group>"; };
+		026D55C1277AE363003CCA64 /* BufferedAudioBus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BufferedAudioBus.hpp; sourceTree = "<group>"; };
+		026D55C3277AE363003CCA64 /* FlutterExampleAUV3DSPKernelAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlutterExampleAUV3DSPKernelAdapter.h; sourceTree = "<group>"; };
+		026D55C4277AE363003CCA64 /* FlutterExampleAUV3DSPKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FlutterExampleAUV3DSPKernel.hpp; sourceTree = "<group>"; };
+		026D55C6277AE363003CCA64 /* FlutterExampleAUV3DSPKernel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FlutterExampleAUV3DSPKernel.mm; sourceTree = "<group>"; };
+		026D55C9277AE363003CCA64 /* AudioUnitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioUnitViewController.h; sourceTree = "<group>"; };
+		026D55CA277AE363003CCA64 /* AudioUnitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioUnitViewController.m; sourceTree = "<group>"; };
+		026D55CD277AE363003CCA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		026D55CF277AE363003CCA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
@@ -45,6 +88,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		026D55B2277AE363003CCA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97C146EB1CF9000F007C117D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -55,6 +105,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		026D55B6277AE363003CCA64 /* FlutterExampleAUV3 */ = {
+			isa = PBXGroup;
+			children = (
+				026D55CC277AE363003CCA64 /* MainInterface.storyboard */,
+				026D55CF277AE363003CCA64 /* Info.plist */,
+				026D55B7277AE363003CCA64 /* Audio Unit */,
+				026D55BB277AE363003CCA64 /* DSP */,
+				026D55C8277AE363003CCA64 /* UI */,
+			);
+			path = FlutterExampleAUV3;
+			sourceTree = "<group>";
+		};
+		026D55B7277AE363003CCA64 /* Audio Unit */ = {
+			isa = PBXGroup;
+			children = (
+				026D55B8277AE363003CCA64 /* FlutterExampleAUV3AudioUnit.h */,
+				026D55B9277AE363003CCA64 /* FlutterExampleAUV3AudioUnit.m */,
+			);
+			path = "Audio Unit";
+			sourceTree = "<group>";
+		};
+		026D55BB277AE363003CCA64 /* DSP */ = {
+			isa = PBXGroup;
+			children = (
+				026D55C4277AE363003CCA64 /* FlutterExampleAUV3DSPKernel.hpp */,
+				026D55C6277AE363003CCA64 /* FlutterExampleAUV3DSPKernel.mm */,
+				026D55BC277AE363003CCA64 /* Helpers */,
+			);
+			path = DSP;
+			sourceTree = "<group>";
+		};
+		026D55BC277AE363003CCA64 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				026D55BD277AE363003CCA64 /* DSPKernel.hpp */,
+				026D55BF277AE363003CCA64 /* DSPKernel.mm */,
+				026D55C1277AE363003CCA64 /* BufferedAudioBus.hpp */,
+				026D55C3277AE363003CCA64 /* FlutterExampleAUV3DSPKernelAdapter.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		026D55C8277AE363003CCA64 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				026D55C9277AE363003CCA64 /* AudioUnitViewController.h */,
+				026D55CA277AE363003CCA64 /* AudioUnitViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		9740EEB11CF90186004384FC /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +172,7 @@
 			children = (
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
+				026D55B6277AE363003CCA64 /* FlutterExampleAUV3 */,
 				97C146EF1CF9000F007C117D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				97C146EE1CF9000F007C117D /* Runner.app */,
+				026D55B5277AE363003CCA64 /* FlutterExampleAUV3.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +204,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		026D55B4277AE363003CCA64 /* FlutterExampleAUV3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026D55D7277AE363003CCA64 /* Build configuration list for PBXNativeTarget "FlutterExampleAUV3" */;
+			buildPhases = (
+				026D55B1277AE363003CCA64 /* Sources */,
+				026D55B2277AE363003CCA64 /* Frameworks */,
+				026D55B3277AE363003CCA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlutterExampleAUV3;
+			productName = FlutterExampleAUV3;
+			productReference = 026D55B5277AE363003CCA64 /* FlutterExampleAUV3.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		97C146ED1CF9000F007C117D /* Runner */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */;
@@ -111,10 +231,12 @@
 				97C146EC1CF9000F007C117D /* Resources */,
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
+				026D55D3277AE363003CCA64 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				026D55D1277AE363003CCA64 /* PBXTargetDependency */,
 			);
 			name = Runner;
 			productName = Runner;
@@ -130,6 +252,9 @@
 				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
+					026D55B4277AE363003CCA64 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					97C146ED1CF9000F007C117D = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 1100;
@@ -150,11 +275,23 @@
 			projectRoot = "";
 			targets = (
 				97C146ED1CF9000F007C117D /* Runner */,
+				026D55B4277AE363003CCA64 /* FlutterExampleAUV3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		026D55B3277AE363003CCA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026D55BE277AE363003CCA64 /* DSPKernel.hpp in Resources */,
+				026D55CE277AE363003CCA64 /* MainInterface.storyboard in Resources */,
+				026D55C2277AE363003CCA64 /* BufferedAudioBus.hpp in Resources */,
+				026D55C5277AE363003CCA64 /* FlutterExampleAUV3DSPKernel.hpp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97C146EC1CF9000F007C117D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,6 +337,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		026D55B1277AE363003CCA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026D55C0277AE363003CCA64 /* DSPKernel.mm in Sources */,
+				026D55CB277AE363003CCA64 /* AudioUnitViewController.m in Sources */,
+				026D55BA277AE363003CCA64 /* FlutterExampleAUV3AudioUnit.m in Sources */,
+				026D55C7277AE363003CCA64 /* FlutterExampleAUV3DSPKernel.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97C146EA1CF9000F007C117D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,7 +359,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		026D55D1277AE363003CCA64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 026D55B4277AE363003CCA64 /* FlutterExampleAUV3 */;
+			targetProxy = 026D55D0277AE363003CCA64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		026D55CC277AE363003CCA64 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				026D55CD277AE363003CCA64 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		97C146FA1CF9000F007C117D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -231,6 +395,103 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		026D55D4277AE363003CCA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlutterExampleAUV3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FlutterExampleAUV3;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterAuv3Unit.FlutterExampleAUV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		026D55D5277AE363003CCA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlutterExampleAUV3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FlutterExampleAUV3;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterAuv3Unit.FlutterExampleAUV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		026D55D6277AE363003CCA64 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlutterExampleAUV3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FlutterExampleAUV3;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterAuv3Unit.FlutterExampleAUV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Profile;
+		};
 		249021D3217E4FDB00AE95B9 /* Profile */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -455,6 +716,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		026D55D7277AE363003CCA64 /* Build configuration list for PBXNativeTarget "FlutterExampleAUV3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026D55D4277AE363003CCA64 /* Debug */,
+				026D55D5277AE363003CCA64 /* Release */,
+				026D55D6277AE363003CCA64 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		97C146E91CF9000F007C117D /* Build configuration list for PBXProject "Runner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
