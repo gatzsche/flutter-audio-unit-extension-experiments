@@ -1,18 +1,10 @@
-# Flutter AUv3 Audio Unit Error Demo
-
-## Motivation
-
-We are the developers of Audanika, a professional MIDI Controller app written in
-Flutter. Many of our users require us to support Audio Unit Extensions (AUV3)
-with Audanika.
-
-https://www.youtube.com/watch?v=dV8p6LVJ3ms
+# FlutterViewController Not Visible in Audio Unit Extensions
 
 ## Goal
 
-We want to be the first [Flutter based app, supporting Audio Unit Extensions](https://audanika.medium.com/help-us-to-implement-auv3-support-for-audanika-ea325870fa6a?source=friends_link&sk=9125551802c094e540e5aca073f535fe).
+Make it possible to develop Audio Unit Extensions with Flutter.
 
-## Problems
+## Problem
 
 Until now we were not able to show a Flutter view controller within an Audio
 Unit Extensions
